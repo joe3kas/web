@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*estilos de botstrap*/
+:root {
+
+  --bs-primario: #73bde2;
+  --bs-secundario: #e7b600;
+  --bs-font-sans-serif: "Dosis", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+a:hover {
+  color: #e7b600;
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+/*estilos de botstrap*/
+
+.P{
+  animation: pulse;
+  animation-duration: 0.5s;
+}
+.B{
+  animation: bounceInDown;
+  animation-duration: 0.5s;
+}
+.Fr{
+  animation: fadeInRightBig;
+  animation-duration: 0.5s;
+}
+.Fu{
+  animation: fadeInDownBig;
+  animation-duration: 0.5s;
+}
+.SiR{
+  animation: slideInRight;
+  animation-duration: 0.5s;
+}
+.Act:hover{
+  animation: pulse;
+  animation-duration: 0.5s;
+  color: #e7b600;
+}

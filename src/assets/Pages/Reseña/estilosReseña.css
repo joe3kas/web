@@ -1,0 +1,13 @@
+.banner{
+    width: 100%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 19px 14px 0px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 19px 14px 0px rgba(0,0,0,0);
+}
+
+.titulo{
+    animation: rubberBand;
+    animation-duration: 1.5s;
+    text-align: center;
+    color:#73bde2;
+}
+

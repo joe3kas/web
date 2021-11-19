@@ -1,0 +1,11 @@
+.accordion-button:not(.collapsed) {
+    color:#e7b600!important;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    animation: bounce;
+    animation-duration: 0.5s;
+}
+
+.accordion-button:hover {
+    color:#e7b600!important;
+}

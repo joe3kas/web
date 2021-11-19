@@ -1,0 +1,17 @@
+.banner{
+    width: 100%;
+    -webkit-box-shadow: 0px 21px 8px -12px #000000; 
+    box-shadow: 0px 21px 8px -12px #000000;
+}
+.nav-tabs {
+    border-bottom: 0;
+    justify-content: center;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-color: #e7b600;
+    color: #e7b600!important;
+}
+
+.nav-tabs a:hover{
+    color: #e7b600!important;
+}

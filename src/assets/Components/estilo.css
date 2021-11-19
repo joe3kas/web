@@ -1,0 +1,134 @@
+.na {
+	width: 100px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+	background-color:#73bde2;
+}
+
+.navbar-dark .navbar-toggler,
+.navbar-light .navbar-toggler {
+	border: 300px;
+	width: 100%;
+}
+.navbar-nav .dropdown-menu {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #e7b600;
+}
+
+.navbar-nav {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.nav-link {
+	display: block;
+	padding: .5rem 1rem;
+	color: #73bde2;
+	text-decoration: none;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link:hover {
+	color: #e7b600;
+}
+.dropdown-menu > li:first-child .dropdown-item {
+	border-top-left-radius: .5rem;
+	border-top-right-radius: .5rem;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	color: #73bde2;
+}
+
+a {
+	color: #73bde2 !important;
+}
+
+a:hover {
+	color: #e7b600!important;
+}
+
+.main-nav {
+	padding-top: 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+	align-items: center;
+    list-style: none;
+  }
+
+  .main-nav a {
+    color: #fff;
+      display: block;
+  }
+
+  .navbar-toggler {
+    border: 0;
+    width: 100%;
+}
+.Li{
+	padding: 5px;
+	color: #73bde2;
+}
+
+@media (max-width: 965px) {
+	.main-nav {
+		padding: 0;
+		display: -webkit-flex;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		align-items: center;
+		list-style: none;
+	  }
+}
+
+/*footer*/
+.Footer-bajo{
+	padding: 0.9375rem 1.875rem;
+	background-color: #003e83;
+	height: 55px;
+  }
+  .txt{
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+  }
+  
+  .Footer{
+	height: 100%;
+	background-color: #0087ca;
+	display: flex;
+	flex-direction: row;
+   padding: 50px; 
+   justify-content: space-between;
+   color: white;
+  }
+  
+  @media (max-width: 965px) {
+	.Footer{
+	  background-color: #0087ca;
+	  display: flex;
+	  flex-direction: column;
+	 padding: 50px; 
+	 text-align: center;
+	 justify-content: space-between;
+	 color: white;
+	}
+  }
+  
+  .Active{
+	color: #e7b600!important;
+}
